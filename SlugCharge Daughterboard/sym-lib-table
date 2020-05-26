@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Locker1-rescue")(type "Legacy")(uri "${KIPRJMOD}/Locker1-rescue.lib")(options "")(descr ""))
+  (lib (name "Lockernewchem-rescue")(type "Legacy")(uri "${KIPRJMOD}/Lockernewchem-rescue.lib")(options "")(descr ""))
+)
