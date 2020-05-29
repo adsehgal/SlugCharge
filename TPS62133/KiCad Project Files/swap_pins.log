@@ -1,0 +1,128 @@
+05-29 20:26:09 STDERR 172:Traceback (most recent call last):
+05-29 20:26:09 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:09 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:09 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:09 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:09 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:09 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:09 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:09 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:09 STDERR 172:TypeError
+05-29 20:26:09 STDERR 172::
+05-29 20:26:09 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:09 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:09 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:09 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:09 STDERR 172:    TRACK::GetClearance() const
+05-29 20:26:17 STDERR 172:Traceback (most recent call last):
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:17 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:17 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:17 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:17 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:17 STDERR 172:TypeError
+05-29 20:26:17 STDERR 172::
+05-29 20:26:17 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:17 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:17 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:17 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:17 STDERR 172:    TRACK::GetClearance() const
+05-29 20:26:17 STDERR 172:Traceback (most recent call last):
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:17 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:17 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:17 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:17 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:17 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:17 STDERR 172:TypeError
+05-29 20:26:17 STDERR 172::
+05-29 20:26:17 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:17 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:17 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:17 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:17 STDERR 172:    TRACK::GetClearance() const
+05-29 20:26:18 STDERR 172:Traceback (most recent call last):
+05-29 20:26:18 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:18 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:18 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:18 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:18 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:18 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:18 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:18 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:18 STDERR 172:TypeError
+05-29 20:26:18 STDERR 172::
+05-29 20:26:18 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:18 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:18 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:18 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:18 STDERR 172:    TRACK::GetClearance() const
+05-29 20:26:30 STDERR 172:Traceback (most recent call last):
+05-29 20:26:30 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:30 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:30 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:30 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:30 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:30 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:30 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:30 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:30 STDERR 172:TypeError
+05-29 20:26:30 STDERR 172::
+05-29 20:26:30 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:30 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:30 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:30 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:30 STDERR 172:    TRACK::GetClearance() const
+05-29 20:26:32 STDERR 172:Traceback (most recent call last):
+05-29 20:26:32 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:32 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:32 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:32 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:32 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:32 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:32 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:32 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:32 STDERR 172:TypeError
+05-29 20:26:32 STDERR 172::
+05-29 20:26:32 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:32 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:32 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:32 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:32 STDERR 172:    TRACK::GetClearance() const
+05-29 20:26:37 STDERR 172:Traceback (most recent call last):
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:37 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:37 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:37 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:37 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:37 STDERR 172:TypeError
+05-29 20:26:37 STDERR 172::
+05-29 20:26:37 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:37 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:37 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:37 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:37 STDERR 172:    TRACK::GetClearance() const
+05-29 20:26:37 STDERR 172:Traceback (most recent call last):
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/teardrop_dialog.py", line 50, in onProcessAction
+05-29 20:26:37 STDERR 172:self.cb_discard_in_same_zone.IsChecked())
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 276, in SetTeardrops
+05-29 20:26:37 STDERR 172:pcb.Add(__Zone(pcb, coor, track))
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\share\kicad\scripting\plugins/teardrops/td.py", line 96, in __Zone
+05-29 20:26:37 STDERR 172:z.SetZoneClearance(track.GetClearance())
+05-29 20:26:37 STDERR 172:  File "C:\Program Files\KiCad\lib\python2.7\site-packages/pcbnew.py", line 9280, in GetClearance
+05-29 20:26:37 STDERR 172:return _pcbnew.TRACK_GetClearance(self, aItem, aSource)
+05-29 20:26:37 STDERR 172:TypeError
+05-29 20:26:37 STDERR 172::
+05-29 20:26:37 STDERR 172:Wrong number or type of arguments for overloaded function 'TRACK_GetClearance'.
+05-29 20:26:37 STDERR 172:  Possible C/C++ prototypes are:
+05-29 20:26:37 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *,wxString *) const
+05-29 20:26:37 STDERR 172:    TRACK::GetClearance(BOARD_CONNECTED_ITEM *) const
+05-29 20:26:37 STDERR 172:    TRACK::GetClearance() const

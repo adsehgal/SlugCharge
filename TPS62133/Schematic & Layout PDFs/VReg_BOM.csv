@@ -1,0 +1,9 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"DB1";"DB_43x21";1;"DB_42x21";;;
+2;"C4";"C_1206_3216Metric_Pad1.42x1.75mm_HandSolder";1;"22µF";;;
+3;"L1";"L_6.3x6.3_H3";1;"2.2µH";;;
+4;"U1";"VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias";1;"TPS62133";;;
+5;"R1";"R_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"100K";;;
+6;"C3";"C_1206_3216Metric_Pad1.42x1.75mm_HandSolder";1;"10µF";;;
+7;"C2";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"620pF";;;
+8;"C1";"C_0805_2012Metric_Pad1.15x1.40mm_HandSolder";1;"100nF";;;
