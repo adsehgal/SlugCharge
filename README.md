@@ -104,34 +104,14 @@ We drafted the 3-D model and orthographic drawings using Fusion360. This was don
 <p align="center">
   <img src="Mechanical/ISO_3D.jpg" />
 </p>
+
 ```
-To educate the community how to use the station we developed two short instructional videos showing so. These can be followed [here!]()
+To educate the community how to use the station we developed two short instructional videos showing so. These can be downloaded via the following hyperlinks
 ```
+* [Selecting a locker](https://github.com/adsehgal/SlugCharge/blob/master/Mechanical/Get_Device_Final.avi)
+* [Retrieving your device](https://github.com/adsehgal/SlugCharge/blob/master/Mechanical/Select_Locker_FInal.avi)
 <!-- END OF MECH SECTION -->
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-<!-- ## Deployment
-
-Add additional notes about how to deploy this on a live system -->
 
 ## Built With
 
@@ -141,16 +121,7 @@ Add additional notes about how to deploy this on a live system -->
 * [Affinity Designer](http://affinity.serif.com/) - Used to design logos and other 2-D graphics
 * [VSDC Video Editor](http://www.videosoftdev.com/) - Used to design education videos of the charging station
 
-<!-- ## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. -->
-
-<!-- ## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).  -->
 
 ## Authors
 
 * **Aditya Sehgal** - *Systems Integration lead, PCB Designer, Mechanical Drafter and Graphic Designer* - [AdSehgal](https://github.com/AdSehgal)
-
-<!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. -->
