@@ -1,6 +1,6 @@
-![](image.png)
-# Custom AtMega Development Boards
-### Aditya Sehgal
+![](SlugCharge_Logo.png)
+<!-- # Custom AtMega Development Boards -->
+<!-- ### Aditya Sehgal -->
 
 </p>This repo is a compilation of custom development boards I have taken upon myself to design. These boards house the AtMega family of microcontrollers and are similar to Arduino boards, however, with personal customizations as follows:</p>
  <il>   
