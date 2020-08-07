@@ -17,7 +17,8 @@ Give examples
 
 ### PCB Design
 
-#### PCB #1
+#### PCB #1 - Testbench V1.0
+[Project Files](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Testbench_V1.0) - KiCad
 * We first started with making a testbench that was able to run our code and interact with the required I/O </br>
     Requirements:</br>
     * Utilize the **ATmega2560** as the main processor
@@ -31,12 +32,57 @@ Give examples
 <p align="center">
   <img src="SlugCharge_Testbench_V1.0/Schematic.png" />
 </p>
-* Next I moved onto laying out the PCB as per the requirements to get the following layout and 3-D models:
-<p align="center">
-  <img src="SlugCharge_Testbench_V1.0/Layout.png" />
+
+* Next I moved onto laying out the PCB as per the requirements to get the following design:
+
 </p>
 <p align="center">
   <img src="SlugCharge_Testbench_V1.0/3-D_Front.jpg" />
+</p>
+
+#### PCB #2 - Motherboard V2.4
+[Project Files](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Motherboard) - KiCad
+* We followed the success of the testbench with a custom motherboard </br>
+    Requirements:</br>
+    * Utilize the **ATmega2560** as the main processor
+    * Be **easliy programmable** for future code updates
+    * Should **not require off-board voltage regulation**
+    * Should **not be directly connected** to the individual lockers
+    * Restricted to a **2-layer PCB**
+```
+To keep the motherboard physically isolated from the individual lockers, we decided to design a daughterboard for each locker that would connect to the motherboard via IDC cables
+```
+<p align="center">
+  <img src="SlugCharge_Motherboard/Schematic_P1.png" />
+</p>
+<p align="center">
+  <img src="SlugCharge_Motherboard/Schematic_P2.png" />
+</p>
+
+* Next I moved onto laying out the PCB as per the requirements to get the following design:
+<p align="center">
+  <img src="SlugCharge_Motherboard/3-D_Front.jpg" />
+</p>
+
+#### PCB #3 - Daughterboard V4.0
+[Project Files](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Motherboard) - KiCad
+* We followed the success of the testbench with a custom motherboard </br>
+    Requirements:</br>
+    * Connect with the motherboard **using IDC cables**
+    * Provide a **voltage regulator per locker** to charge devices
+    * Should be **easily replacable**
+    * Should **not contain any complex devices**
+    * Restricted to a **2-layer PCB**
+```
+To charge the devices in each locker, we decided to give each of these PCBs a second voltage regulator PCB for easy servicability. This regulator was chose to be the [TPS62133]()
+```
+<p align="center">
+  <img src="SlugCharge_Daughterboard/Schematic.png" />
+</p>
+
+* Next I moved onto laying out the PCB as per the requirements to get the following design:
+<p align="center">
+  <img src="SlugCharge_Daughterboard/3-D_Front.jpg" />
 </p>
 
 </object>
