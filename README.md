@@ -1,16 +1,78 @@
-![](SlugCharge_Logo.png)
-<!-- # Custom AtMega Development Boards -->
-<!-- ### Aditya Sehgal -->
+![SlugCharge Logo](SlugCharge_Logo.png)
+# *SlugCharge*
 
-</p>This repo is a compilation of custom development boards I have taken upon myself to design. These boards house the AtMega family of microcontrollers and are similar to Arduino boards, however, with personal customizations as follows:</p>
- <il>   
+SlugCharge was a student run project geared towards helping the homeless communit of Santa Cruz, CA. The project was led by four Electrical Engineering students at the University of California, Santa Cruz. The team aimed towards providing solar powered charging stations to the community so they can stay conencted with family and potential employers that may turn their life around! 
 
-- Reduce the physical size of the reference Arduinos by roughly half.
-- Implement USB-C for future proofing.
-- Remove unnecessary components.
- <il>
-<br>
 
-</p>The gerber files can be sent to JLCPCB.com for manufacturing since they agree with their constraints and the components can be ordered via LCSC.com using the BOMs provided.<br>
-Hand soldering the PCBs may come across as a bit of a challenge for some since it requires parctice with QFP packages as well as 3225 packaged crystal oscillators with pads on the bottom. Both of these are easily solderable if you have access to a hot air station, but definitely doable with a temperature controlled iron and a well tip.<br>
-The BOMs can be simply uploaded to LCSC using their BOM tool to add all required components directly to cart. Note to be made here, header pins are not included in the BOM since I want to leave the choice of male/female up to the designer.</p>
+### My Roles
+
+* PCB Design
+* Mechnical Design
+* Graphic Design
+* Video Creation
+
+<!-- ```
+Give examples
+``` -->
+
+### PCB Design
+
+#### PCB #1
+* We first started with making a testbench that was able to run our code and interact with the required I/O </br>
+    Requirements:</br>
+    * Utilize the **ATmega2560** as the main processor
+    * Be **easliy programmable** for future code updates
+    * Contain **visual annunciators** for easy state tracking 
+    * Utilize **breakout pins** for off-board I/O control
+    * Should **not require off-board voltage regulation**
+    * Should be easily **hand assembled**
+    * Restricted to a **2-layer PCB**
+* The design was started off with referring to the Arduino Mega Development board and adapted to fit the required I/O:
+<!-- ![PCB Testbench Schematic](SlugCharge_Testbench_V1.0/Schematic.pdf) -->
+<embed src="SlugCharge_Testbench_V1.0/Schematic.pdf" type="application/pdf">
+
+## Running the tests
+
+Explain how to run the automated tests for this system
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+<!-- ## Deployment
+
+Add additional notes about how to deploy this on a live system -->
+
+## Built With
+
+* [KiCad](https://kicad-pcb.org/) - Used to design schematics and PCB layouts
+* [Fusion 360](https://www.autodesk.com/products/fusion-360/overview) - Used to design mechanical drafts
+* [Arduino IDE](https://www.arduino.cc/) - Used to code the charging station functionaility
+* [Affinity Designer](http://affinity.serif.com/) - Used to design logos and other 2-D graphics
+* [VSDC Video Editor](http://www.videosoftdev.com/) - Used to design education videos of the charging station
+
+<!-- ## Contributing
+
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us. -->
+
+<!-- ## Versioning
+
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).  -->
+
+## Authors
+
+* **Aditya Sehgal** - *Systems Integration lead, PCB Designer, Mechanical Drafter and Graphic Designer* - [AdSehgal](https://github.com/AdSehgal)
+
+<!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. -->
