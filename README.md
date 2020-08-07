@@ -29,7 +29,9 @@ Give examples
     * Restricted to a **2-layer PCB**
 * The design was started off with referring to the Arduino Mega Development board and adapted to fit the required I/O:
 <!-- ![PCB Testbench Schematic](SlugCharge_Testbench_V1.0/Schematic.pdf) -->
-<embed src="SlugCharge_Testbench_V1.0/Schematic.pdf" type="application/pdf">
+<!-- <embed src="SlugCharge_Testbench_V1.0/Schematic.pdf" type="application/pdf"> -->
+<object data="/SlugCharge_Testbench_V1.0/Schematic.pdf" type="application/pdf" width="100%"> 
+</object>
 
 ## Running the tests
 
