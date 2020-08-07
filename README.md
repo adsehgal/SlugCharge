@@ -28,9 +28,9 @@ Give examples
     * Should be easily **hand assembled**
     * Restricted to a **2-layer PCB**
 * The design was started off with referring to the Arduino Mega Development board and adapted to fit the required I/O:
-<!-- ![PCB Testbench Schematic](SlugCharge_Testbench_V1.0/Schematic.pdf) -->
+![PCB Testbench Schematic](SlugCharge_Testbench_V1.0/Schematic.png)
 <!-- <embed src="SlugCharge_Testbench_V1.0/Schematic.pdf" type="application/pdf"> -->
-<object data="/SlugCharge_Testbench_V1.0/Schematic.pdf" type="application/pdf" width="100%"> 
+<!-- <object data="/SlugCharge_Testbench_V1.0/Schematic.pdf" type="application/pdf" width="100%">  -->
 </object>
 
 ## Running the tests
