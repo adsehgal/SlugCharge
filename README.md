@@ -11,10 +11,8 @@ SlugCharge was a student run project geared towards helping the homeless communi
 * Graphic Design
 * Video Creation
 
-<!-- ```
-Give examples
-``` -->
 
+<!-- START OF PCB SECTION -->
 ### PCB Design
 
 #### PCB #1 - Testbench V1.0
@@ -65,7 +63,7 @@ To keep the motherboard physically isolated from the individual lockers, we deci
 </p>
 
 #### PCB #3 - Daughterboard V4.0
-[Project Files](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Motherboard) - KiCad
+[Project Files](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Daughterboard) - KiCad
 * We followed the success of the testbench with a custom motherboard </br>
     Requirements:</br>
     * Connect with the motherboard **using IDC cables**
@@ -74,7 +72,7 @@ To keep the motherboard physically isolated from the individual lockers, we deci
     * Should **not contain any complex devices**
     * Restricted to a **2-layer PCB**
 ```
-To charge the devices in each locker, we decided to give each of these PCBs a second voltage regulator PCB for easy servicability. This regulator was chose to be the [TPS62133]()
+To charge the devices in each locker, we decided to give each of these PCBs a second voltage regulator PCB for easy servicability. This regulator was chose to be the [TPS62133](https://github.com/adsehgal/SlugCharge/tree/master/TPS62133)
 ```
 <p align="center">
   <img src="SlugCharge_Daughterboard/Schematic.png" />
@@ -84,8 +82,32 @@ To charge the devices in each locker, we decided to give each of these PCBs a se
 <p align="center">
   <img src="SlugCharge_Daughterboard/3-D_Front.jpg" />
 </p>
+<!-- END OF PCB SECTION -->
 
-</object>
+
+<!-- START OF MECH SECTION -->
+### Mechanical Design
+[Mechanical Drafts](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Testbench_V1.0) - Fusion360
+* Given the restrictions due to COVID-19, the team was unable to build the stattion, however we rendered a 3-D model for any future teams that may be intereste in taking up this project
+    Requirements:</br>
+    * Be designed to accomodate the **average person height**
+    * Hold at least **6 devices simultaneously**
+    * Be resistant to **tampering**
+    * **Solar Powered**
+
+```
+We drafted the 3-D model and orthographic drawings using Fusion360. This was done to aid future teams who may be interested in continuing this project
+```
+<p align="center">
+  <img src="Mechanical/Ortho_Drawing_V1.2.png" />
+</p>
+<p align="center">
+  <img src="Mechanical/ISO_3D.jpg" />
+</p>
+```
+To educate the community how to use the station we developed two short instructional videos showing so. These can be followed [here!]()
+```
+<!-- END OF MECH SECTION -->
 
 ## Running the tests
 
