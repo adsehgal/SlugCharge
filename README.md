@@ -47,9 +47,9 @@ SlugCharge was a student run project geared towards helping the homeless communi
     * Should **not require off-board voltage regulation**
     * Should **not be directly connected** to the individual lockers
     * Restricted to a **2-layer PCB**
-```
+
 To keep the motherboard physically isolated from the individual lockers, we decided to design a daughterboard for each locker that would connect to the motherboard via IDC cables
-```
+
 <p align="center">
   <img src="SlugCharge_Motherboard/Schematic_P1.png" />
 </p>
@@ -71,9 +71,9 @@ To keep the motherboard physically isolated from the individual lockers, we deci
     * Should be **easily replacable**
     * Should **not contain any complex devices**
     * Restricted to a **2-layer PCB**
-```
+
 To charge the devices in each locker, we decided to give each of these PCBs a second voltage regulator PCB for easy servicability. This regulator was chose to be the [TPS62133](https://github.com/adsehgal/SlugCharge/tree/master/TPS62133)
-```
+
 <p align="center">
   <img src="SlugCharge_Daughterboard/Schematic.png" />
 </p>
@@ -95,9 +95,9 @@ To charge the devices in each locker, we decided to give each of these PCBs a se
     * Be resistant to **tampering**
     * **Solar Powered**
 
-```
+
 We drafted the 3-D model and orthographic drawings using Fusion360. This was done to aid future teams who may be interested in continuing this project
-```
+
 <p align="center">
   <img src="Mechanical/Ortho_Drawing_V1.2.png" />
 </p>
@@ -105,9 +105,9 @@ We drafted the 3-D model and orthographic drawings using Fusion360. This was don
   <img src="Mechanical/ISO_3D.jpg" />
 </p>
 
-```
+
 To educate the community how to use the station we developed two short instructional videos showing so. These can be downloaded via the following hyperlinks
-```
+
 * [Selecting a locker](https://github.com/adsehgal/SlugCharge/blob/master/Mechanical/Get_Device_Final.avi)
 * [Retrieving your device](https://github.com/adsehgal/SlugCharge/blob/master/Mechanical/Select_Locker_FInal.avi)
 <!-- END OF MECH SECTION -->
