@@ -84,11 +84,23 @@ To charge the devices in each locker, we decided to give each of these PCBs a se
 </p>
 <!-- END OF PCB SECTION -->
 
+<!--START OF  VOLTAGE REGULATOR -->
+### Voltage Regulator selection
 
+<!-- END OF VOLTAGE REGULATOR -->
+[Regulator Comparison Sheet](https://github.com/adsehgal/SlugCharge/blob/master/Regulator_selection.pdf) - PDF</br>
+[Regulator Design Files](https://github.com/adsehgal/SlugCharge/tree/master/TPS62133) - KiCad
+* I decided to use the TPS62133 constant 5.0V switching regulator to charge connected devices. This regulator was selected for the following reasons:  </br>
+  * Relatively low cost
+  * Extremely high efficiency
+  * Very low output ripple
+  * On chip enable pin
+  * High current capability
+  
 <!-- START OF MECH SECTION -->
 ### Mechanical Design
 [Mechanical Drafts](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Testbench_V1.0) - Fusion360
-* Given the restrictions due to COVID-19, the team was unable to build the stattion, however we rendered a 3-D model for any future teams that may be intereste in taking up this project
+* Given the restrictions due to COVID-19, the team was unable to build the stattion, however we rendered a 3-D model for any future teams that may be intereste in taking up this project</br>
     Requirements:</br>
     * Be designed to accomodate the **average person height**
     * Hold at least **6 devices simultaneously**
@@ -112,6 +124,8 @@ To educate the community how to use the station we developed two short instructi
 * [Retrieving your device](https://github.com/adsehgal/SlugCharge/blob/master/Mechanical/Select_Locker_FInal.avi)
 <!-- END OF MECH SECTION -->
 
+### Final Report
+[The final team report can be found here](https://github.com/adsehgal/SlugCharge/blob/master/Final_report.pdf)
 
 ## Built With
 
