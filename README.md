@@ -64,7 +64,7 @@ To keep the motherboard physically isolated from the individual lockers, we deci
 
 #### PCB #3 - Daughterboard V4.0
 [Project Files](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Daughterboard) - KiCad
-* We followed the success of the testbench with a custom motherboard </br>
+* We followed the success of the testbench with a custom daughterboard </br>
     Requirements:</br>
     * Connect with the motherboard **using IDC cables**
     * Provide a **voltage regulator per locker** to charge devices
@@ -99,7 +99,7 @@ To charge the devices in each locker, we decided to give each of these PCBs a se
   
 <!-- START OF MECH SECTION -->
 ### Mechanical Design
-[Mechanical Drafts](https://github.com/adsehgal/SlugCharge/tree/master/SlugCharge_Testbench_V1.0) - Fusion360
+[Mechanical Drafts](https://github.com/adsehgal/SlugCharge/tree/master/Mechanical) - Fusion360
 * Given the restrictions due to COVID-19, the team was unable to build the stattion, however we rendered a 3-D model for any future teams that may be intereste in taking up this project</br>
     Requirements:</br>
     * Be designed to accomodate the **average person height**
