@@ -100,7 +100,7 @@ To charge the devices in each locker, we decided to give each of these PCBs a se
 <!-- START OF MECH SECTION -->
 ### Mechanical Design
 [Mechanical Drafts](https://github.com/adsehgal/SlugCharge/tree/master/Mechanical) - Fusion360
-* Given the restrictions due to COVID-19, the team was unable to build the stattion, however we rendered a 3-D model for any future teams that may be intereste in taking up this project</br>
+* Given the restrictions due to COVID-19, the team was unable to build the station, however we rendered a 3-D model for any future teams that may be intereste in taking up this project</br>
     Requirements:</br>
     * Be designed to accomodate the **average person height**
     * Hold at least **6 devices simultaneously**
